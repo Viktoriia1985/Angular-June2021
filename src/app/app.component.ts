@@ -1,10 +1,21 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+// export class AppComponent {
+//   title: string = 'Hello Ang'
+//
+//   constructor() {
+//     console.log('start app component');
+//   }
+// }
+
 export class AppComponent {
-  title = 'Angular-June2021';
+
+
 }

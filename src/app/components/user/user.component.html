@@ -1,0 +1,16 @@
+<p>
+  {{ user.id }}
+  <br>- name:  {{ user.name }}
+  <br>- username: {{ user.username }}
+  <br>- email: {{ user.email }}
+  <br>- address: {{ user.address.street }}
+  <br> suite: {{ user.address.suite }}
+  <br> city:{{ user.address.city }}
+  <br> zipcode: {{ user.address.zipcode }}
+  <br> geo.lat: {{ user.address.geo.lat }}
+  <br> geo.lng: {{ user.address.geo.lng }}
+  <br>- phone:{{ user.phone }}
+  <br>- website{{ user.website}}
+  <br>- company name:{{ user.company.name}}
+  <a routerLink="{{ user.id }}">details</a>
+</p>
