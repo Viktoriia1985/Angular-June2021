@@ -11,8 +11,7 @@ export class UserResolveService implements Resolve<User> {
   }
 
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<User> | Promise<User> | User {
-    console.log(+route.params['id'])
-    return this.userService.getUser(+route.params['id']).pipe(delay(2000));
+    return this.userService.getUser(+route.params['id']).pipe(delay(1000));
 
   }
 

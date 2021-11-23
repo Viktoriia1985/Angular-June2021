@@ -12,5 +12,5 @@
   <br>- phone:{{ user.phone }}
   <br>- website{{ user.website}}
   <br>- company name:{{ user.company.name}} -
-  <button routerLink="{{ user.id }}">details</button>
+  <button (click)="navTo()">details</button>
 </p>
